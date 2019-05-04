@@ -48,18 +48,61 @@ body {
 }
 
 .schedule {
+  width: 100%;
+  height: 480px;
   
+  .tab-menu {
+  width: 500px;
+  margin-left: 60px;
+
+  ul { /* .tab-menuの中のulに対する記述 */
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  li { /* .tab-menuの中のli */
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    padding: 10px 10px 5px;
+    cursor: pointer;
+    background-color: #d7ccc8;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+
+    &.selected {/* .tab-menuの中のliの内、.selectedが与えられているものに対する記述 */
+      background-color: #bcaaa4;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.contents {
+  background-color: #fff;
+  height: 360px;
+  padding: 20px;
+
+  .right { /* .contentsの中の.rightに対する記述 */
+    display: none; /* 最初、右のコンテンツは非表示にする */
+  }
+}
 }
 
 .about {
   text-align: left;
+  width: 100%;
+  height: 240px;
 }
 
 .share {
-  
+  text-align: center;
 }
 
 .footer {
+  text-align: left;
   height: 50px;
-  background-color: #8d6e63;
+  background-color: #bcaaa4;
 }
