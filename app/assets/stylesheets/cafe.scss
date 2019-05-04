@@ -4,20 +4,47 @@ html {
   font-size: 10px;
 }
 
-.body {
-  background-color: #FFFFFF;
+.nav-wrapper {
+  text-align: center;
+  background-color: #bcaaa4;
 }
 
-.main {
-  
+body {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.main_img {
+  width: 100%;
+  height: 480px;
+  background: url('bg.jpg') fixed;
+  background-size: cover;
 }
 
 .concept {
-  height: 100px;
+  text-align: center;
+  width: 100%;
+  height: 240px;
 }
 
 .food {
-  background-color: #F5DEB3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bcaaa4;
+}
+
+.menu_img {
+  width: 50%;
+  height: 360px;
+  background: url('bg.jpg') fixed;
+  background-size: cover;
+}
+
+.menu {
+  width: 50%;
+  height: 360px;
 }
 
 .schedule {
@@ -25,14 +52,14 @@ html {
 }
 
 .about {
-  height: 100px;
+  text-align: left;
 }
 
 .share {
-  height: 50px;
+  
 }
 
 .footer {
   height: 50px;
-  background-color: #FFFFFF;
+  background-color: #8d6e63;
 }
