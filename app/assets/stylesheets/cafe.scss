@@ -64,6 +64,8 @@ body {
 }
 
 .schedule {
+  }
+  
   .tab-menu {
   width: 500px;
   margin-left: 60px;
@@ -99,10 +101,10 @@ body {
   padding: 20px;
 
   .right { /* .contentsの中の.rightに対する記述 */
-    display: none; /* 最初、右のコンテンツは非表示にする */
+     display: none;/* 最初、右のコンテンツは非表示にする */
   }
   }
-}
+
 
 .about {
   text-align: left;

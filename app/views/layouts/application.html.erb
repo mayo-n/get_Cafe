@@ -7,6 +7,47 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    <div class="header">
+      <nav>
+      <div class="nav-wrapper">
+        <ul>
+          <a href="#" class="brand-logo">〇〇カフェ</a>
+        </ul>
+        <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons left">dehaze</i></a></li>
+      </div>
+    </nav>
+    
+       <!--マークアップ追記 -->
+      <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li><a href="#!">コンセプト</a></li>
+        <li><a href="#!">メニュー</a></li>
+        <li><a href="#!">スケジュール</a></li>
+        <li><a href="#!">店舗情報</a></li>
+      </ul>
+  
+     <!--スクリプト追記 -->
+    <!--  <script>-->
+    <!--  document.addEventListener('DOMContentLoaded', function() {-->
+    <!--    var elems = document.querySelectorAll('.sidenav');-->
+    <!--    var instances = M.Sidenav.init(elems, {});-->
+    <!--  });-->
+    <!--//</script>-->
+  
+     <!--スタイル追記 -->
+    <style>
+      header, body, footer {
+        padding-left: 300px;
+      }
+  
+      @media only screen and (max-width : 992px) {
+        header, body, footer {
+          padding-left: 0;
+        }
+      }
+    </style>
+  
+    </div>
   </head>
 
   <body>
