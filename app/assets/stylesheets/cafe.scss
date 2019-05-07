@@ -14,105 +14,122 @@ body {
   text-align: center;
 }
 
-.main_img {
-  width: 100%;
-  height: 480px;
-  background: url('bg.jpg') fixed;
-  background-size: cover;
-}
-
-.concept {
-  width: 100%;
-  height: 240px;
-  padding: 30px 30px;
-}
-
-.heading {
-    display: inline-block;
-    margin: 30px 0 15px;
-    padding-bottom: 15px;
-    letter-spacing: 2px;
-    font-size: 30px;
-    border-bottom: double 4px #999;
-}
-
-.about-text {
-    width: 600px;
-    margin: 30px auto;
-    line-height: 2.5;
-    text-align: left;
-}
-
-.food {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #bcaaa4;
-}
-
-.menu_img {
-  width: 50%;
-  height: 360px;
-  background: url('bg.jpg') fixed;
-  background-size: cover;
-}
-
-.menu {
-  width: 50%;
-  height: 360px;
-}
-
-.schedule {
+  .main_img {
+    width: 100%;
+    height: 480px;
+    background: url('bg.jpg') fixed;
+    background-size: cover;
   }
   
-  .tab-menu {
-  width: 500px;
-  margin-left: 60px;
-
-  ul { /* .tab-menuの中のulに対する記述 */
-    margin: 0;
-    padding: 0;
-    margin-top: 50px;
+  .concept {
+    width: 100%;
+    height: 240px;
+    padding: 30px 30px;
   }
-
-  li { /* .tab-menuの中のli */
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    padding: 10px 10px 5px;
-    cursor: pointer;
-    background-color: #d7ccc8 ;
-    border-top-right-radius: 10px;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
-
-    &.selected {/* .tab-menuの中のliの内、.selectedが与えられているものに対する記述 */
-      background-color: #bcaaa4;
-      color: #FFFFFF;
+  
+    .concept-heading {
+        display: inline-block;
+        margin: 30px 0 15px;
+        letter-spacing: 2px;
+        font-size: 30px;
+        border-bottom: double 4px #999;
+      }
+  
+    .concept-text {
+        width: 600px;
+        margin: 30px auto;
+        text-align: left;
     }
-  }
-  }
-
-  .contents {
-  background-color: #fff;
-  height: 360px;
-  padding: 20px;
-
-  .right { /* .contentsの中の.rightに対する記述 */
-     display: none;/* 最初、右のコンテンツは非表示にする */
-  }
-  }
-
-
-.about {
-  text-align: left;
-}
-
-.share {
   
-}
+  
+  .food {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bcaaa4;
+    
+    .menu {
+    width: 50%;
+    height: 360px;
+    padding: 30px 30px;
+    }
+    
+      .menu-heading {
+        display: inline-block;
+        height: 40px;
+        margin: 15px 15px;
+        letter-spacing: 2px;
+        font-size: 30px;
+        border-bottom: double 4px #999;
+      }
+      
+      .menu-text {
+        width: 80%;
+        // margin: 30px auto;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: left;
+      }
+      
+      .menu_img {
+      width: 50%;
+      height: 360px;
+      background: url('cake.jpg') fixed;
+      background-size: cover;
+      }
+  }
+  
+  .schedule {
+    }
+    
+    .tab-menu {
+    width: 500px;
+    margin-left: 60px;
+  
+    ul { /* .tab-menuの中のulに対する記述 */
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+  
+    li { /* .tab-menuの中のli */
+      display: inline-block;
+      width: 120px;
+      height: 40px;
+      padding: 10px 10px 5px;
+      cursor: pointer;
+      background-color: #d7ccc8 ;
+      border-top-right-radius: 10px;
+      font-size: 14px;
+      color: #FFFFFF;
+      text-align: center;
+  
+      &.selected {/* .tab-menuの中のliの内、.selectedが与えられているものに対する記述 */
+        background-color: #bcaaa4;
+        color: #FFFFFF;
+      }
+    }
+    }
+  
+    .contents {
+    background-color: #fff;
+    height: 360px;
+    padding: 20px;
+  
+    .right { /* .contentsの中の.rightに対する記述 */
+       display: none;/* 最初、右のコンテンツは非表示にする */
+    }
+    }
+  
+  
+  .about {
+    text-align: left;
+  }
+  
+  .share {
+    
+  }
 
 .footer {
   height: 50px;
