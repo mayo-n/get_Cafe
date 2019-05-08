@@ -29,7 +29,7 @@ body {
   
     .concept-heading {
         display: inline-block;
-        margin: 30px 0 15px;
+        margin: 15px 0 7px;
         letter-spacing: 2px;
         font-size: 30px;
         border-bottom: double 4px #999;
@@ -39,6 +39,7 @@ body {
         width: 600px;
         margin: 30px auto;
         text-align: left;
+        letter-spacing: 1px;
     }
   
   
@@ -48,6 +49,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #bcaaa4;
+  }
     
     .menu {
     width: 50%;
@@ -57,28 +59,31 @@ body {
     
       .menu-heading {
         display: inline-block;
-        height: 40px;
-        margin: 15px 15px;
+        // height: 40px;
+        // margin: 15px 15px;
+        margin: 30px 0 15px;
         letter-spacing: 2px;
         font-size: 30px;
         border-bottom: double 4px #999;
       }
       
       .menu-text {
+        display: inline-block;
         width: 80%;
         // margin: 30px auto;
         font-size: 14px;
         line-height: 21px;
         text-align: left;
+        letter-spacing: 1px;
       }
       
-      .menu_img {
+      .menu_img.image {
       width: 50%;
       height: 360px;
-      background: url('cake.jpg') fixed;
+      // background: url('cake.jpg') fixed;
       background-size: cover;
       }
-  }
+  
   
   .schedule {
     }
