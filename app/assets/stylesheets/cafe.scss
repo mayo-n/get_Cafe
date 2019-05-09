@@ -43,7 +43,7 @@ body {
     }
   
   
-  .food {
+  .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -51,7 +51,7 @@ body {
     background-color: #bcaaa4;
   }
     
-    .menu {
+    .menu-box {
     width: 50%;
     height: 360px;
     padding: 30px 30px;
@@ -77,13 +77,28 @@ body {
         letter-spacing: 1px;
       }
       
-      .menu_img.image {
+      .menu-image {
       width: 50%;
       height: 360px;
+      display: block;
       // background: url('cake.jpg') fixed;
       background-size: cover;
       }
-  
+      
+      .menu-description {
+      margin: 20px 0;
+      }
+
+      .menu-box .button {
+        width: 60%;
+        margin-top: 20px;
+        padding: 3px;
+      }
+      
+      .button-ghost {
+        border: 2px solid #fff;
+        background-color: rgba(255, 255, 255, 0.15);
+      }
   
   .schedule {
     }
