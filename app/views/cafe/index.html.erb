@@ -30,71 +30,80 @@
   <!--</head>-->
   
   <body>
-  
-    <section class="main_img"></section>
-    
-    <section class="concept">
-        <h2 class="concept-heading">コンセプト</h2>
-        <p class="concept-text">
-          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
-        </p>
-    </section>
-    
-  <section class="menu">
-      <div class="menu-box1">
-          <h2 class="menu-heading">メニュー</h2>
-          <p class="menu-text">
-          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
-          </p>
-          <a href="#" class="button button-ghost">詳細</a>
-      </div>
-  
-      <div class="menu-box2">
-        <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
-        <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
-        <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
-        <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
-        <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
-      </div>
-  </section>
-    
-    <section class="schedule">
-      <div class="tab-menu">
-        <ul>
-          <li id="left" class="selected">9月</li>
-          <li id="right">10月</li>
-        </ul>
+    <div class="wrap">
+      <section class="main_img"></section>
       
-        <div class="contents">
-          <div class="left">
-            <i class="schedule-image" alt="9月のスケジュール"><%= image_tag '/assets/sep.PNG' %></i>
+      <section class="concept">
+          <h2 class="concept-heading">コンセプト</h2>
+          <p class="concept-text">
+            ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+          </p>
+      </section>
+      
+      <section class="menu">
+          <div class="menu-box1">
+              <h2 class="menu-heading">メニュー</h2>
+              <p class="menu-text">
+              ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+              </p>
+              <a href="#" class="button button-ghost">詳細</a>
           </div>
-          <div class="right">
-            <i class="schedule-image" alt="9月のスケジュール"><%= image_tag '/assets/oct.PNG' %></i>
+      
+          <div class="menu-box2">
+            <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
+            <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
+            <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
+            <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
+            <i class="menu-image" alt="ケーキ"><%= image_tag '/assets/cake.jpg' %></i>
+          </div>
+      </section>
+      
+      <section class="schedule">
+        <div class="tab-menu">
+          <ul>
+            <li id="left" class="selected">9月</li>
+            <li id="right">10月</li>
+          </ul>
+        
+          <div class="contents">
+            <div class="left">
+              <i class="schedule-image" alt="9月のスケジュール"><%= image_tag '/assets/sep.PNG' %></i>
+            </div>
+            <div class="right">
+              <i class="schedule-image" alt="9月のスケジュール"><%= image_tag '/assets/oct.PNG' %></i>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      
+      <section class="about">
+        <div class="about-box1">
+            <h2 class="about-heading">店舗情報</h2>
+            <p class="about-text">
+            〒xxx-xxxx<br>
+            埼玉県川口市前川1-2-3<br>
+            電話番号012-345-6789<br>
+            </p>
+        </div>
     
-    <section class="about">
-      <div class="about-box">
-          <h2 class="about-heading">店舗情報</h2>
-          <p class="about-text">
-          〒xxx-xxxx<br>
-          埼玉県川口市前川1-2-3<br>
-          電話番号012-345-6789<br>
-          </p>
-      </div>
-  
-      <div class="about-box">
-      </div>
+        <div class="about-box2">
+          <div class="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1175.924439138077!2d139.71916989923656!3d35.83813651846056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601894ee3df0331d%3A0xb000d27f0d46cef8!2z44K344Kn44Ki55WRIOW3neWPow!5e0!3m2!1sen!2sjp!4v1557834537183!5m2!1sen!2sjp" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+      
+      <section class="share">
+        <div class="icon">
+          <i class="share-image" alt="Facebook" width="29" height="29"><%= image_tag '/assets/facebook.png' %></i>
+          <i class="share-image" alt="Instagram" width="29" height="29"><%= image_tag '/assets/insta.png' %></i>
+        </div>
+      </section>
+      
+      <section class="footer">
+        <p>C 2019 we-b inc.</p>
+      </section>
     </div>
-  </section>
+  </body>
     
-    <section class="share"></section>
-    
-    <section class="footer">
-      <p>C 2019 we-b inc.</p>
-    </section>
-<!--  </body>-->
 <!--</html>-->
