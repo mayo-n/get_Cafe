@@ -6,3 +6,10 @@ window.addEventListener("load", function() {
     $("." + this.id).show(); // クリックされたボタンに対応する要素を表示する
   });
 });
+
+$(function() {
+$('.menu-box2').slick({
+    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+    nextArrow: '<button class="slide-arrow next-arrow"></button>'
+  });
+});
